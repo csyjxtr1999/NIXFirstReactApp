@@ -1,0 +1,26 @@
+.form {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border: 1px solid #666;
+}
+
+.form-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input {
+    min-height: 30px;
+    min-width: 200px;
+    padding: 5px 20px;
+}
